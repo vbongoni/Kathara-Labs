@@ -1,0 +1,18 @@
+docker ps -a |grep kathara
+docker logs kathara_raji-oddrtyxe76vrhsrhtcyeiw_r11_kzdfW5JUYwTEpd7fKJaogw
+
+kathara exec r11 -- vtysh -c "show version"
+kathara exec r11 -- vtysh -c "show ip route"
+kathara exec r11 -- find /var/log -type f -name "*" 2>/dev/null
+kathara exec r11 -- cat /var/log/syslog | tail -10
+
+ kathara exec r11 -- ps aux | grep rsyslog
+ kathara exec r11 -- apt update && apt install -y rsyslog
+ kathara exec r11 -- /usr/local/bin/net_logger -t "TEST" "Testing custom logger"
+ kathara exec r11 -- cat /var/log/syslog
+
+ kathara exec b012 -- cat /var/log/syslog | tail -10
+
+kathara exec kathara_raji-oddrtyxe76vrhsrhtcyeiw_b02_kzdfW5JUYwTEpd7fKJaogw -- cat /var/log/syslog | tail -10
+
+how to genrate a continuous traffic between routers so that we can see continus syslogs.

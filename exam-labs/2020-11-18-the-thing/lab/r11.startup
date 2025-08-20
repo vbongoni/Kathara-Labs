@@ -1,3 +1,16 @@
+# Setup syslog first
+bash /shared/setup_syslog.sh
+
+# Configure interfaces
 ifconfig eth0 100.10.1.11/24 up
 ifconfig eth1 100.10.2.1/24 up
-/etc/init.d/zebra start
+
+# Log interface configuration
+logger -t "NetworkSim" "Interface eth0 configured: 100.10.1.11/24"
+logger -t "NetworkSim" "Interface eth1 configured: 100.10.2.1/24"
+
+# Start FRR
+systemctl start frr
+
+# Log FRR startup
+logger -t "NetworkSim" "FRR service started on r11"

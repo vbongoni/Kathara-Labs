@@ -44,8 +44,29 @@ For each scenario you can find a `.pdf` file containing the exam's text and the 
 
 You can use it for training and practice!
 
+    sudo kathara lstart
+    
+    kathara connect controller
+    
+    sudo kathara lclean
+    
+    vtysh     
+
+    show ip ospf neighbor
+    show isis neighbor
+    show bgp summary
+    show ip route
 ## Netkit Labs
 
 If you need additional network scenarios, you can visit the old [Netkit Lab Page](https://www.netkit.org/exams.html). 
 
 **Beware those network scenarios are not tested on Kathará, so they may not work properly!**
+
+Example commands:
+show ip ospf route
+show ip ospf interface
+show ip ospf neighbor
+show ip ospf database
+show ip ospf database summary
+show ip ospf database router
+show ip ospf database network
