@@ -1,0 +1,167 @@
+Aug 29 13:54:15 172.17.0.3 358: *Aug 29 13:54:15 13:54:15.573: Manual centralized logging initialized for b012
+Aug 29 13:54:15 172.17.0.2 6186: *Aug 29 13:54:15 13:54:15.573: Manual centralized logging initialized for r21
+Aug 29 13:54:15 172.17.0.3 3805: *Aug 29 13:54:15 13:54:15.586: %SYS-5-CONFIG_I: Centralized syslog setup completed for b012
+Aug 29 13:54:15 172.17.0.2 3110: *Aug 29 13:54:15 13:54:15.587: %SYS-5-CONFIG_I: Centralized syslog setup completed for r21
+Aug 29 13:54:15 172.17.0.2 7490: *Aug 29 13:54:15 13:54:15.597: Interface eth0 configured: 100.20.1.2/24
+Aug 29 13:54:15 172.17.0.3 3335: *Aug 29 13:54:15 13:54:15.597: Interface eth0 configured: 100.0.3.1/24
+Aug 29 13:54:15 172.17.0.2 2915: *Aug 29 13:54:15 13:54:15.604: Interface eth1 configured: 100.20.2.2/24
+Aug 29 13:54:15 172.17.0.3 8904: *Aug 29 13:54:15 13:54:15.604: Interface eth1 configured: 100.10.1.10/24
+Aug 29 13:54:15 172.17.0.2 5548: *Aug 29 13:54:15 13:54:15.611: Interface eth2 configured: 100.20.3.2/24
+Aug 29 13:54:15 172.17.0.3 347: *Aug 29 13:54:15 13:54:15.611: Interface eth2 configured: 100.0.1.1/24
+Aug 29 13:54:15 172.17.0.3 6588: *Aug 29 13:54:15 13:54:15.617: Interface eth3 configured: 100.20.1.20/24
+Aug 29 13:54:21 172.17.0.3 3832: *Aug 29 13:54:21 13:54:21.431: FRR service started on b012
+Aug 29 13:54:21 172.17.0.2 8252: *Aug 29 13:54:21 13:54:21.431: FRR service started on r21
+Aug 29 13:55:09 172.17.0.3 8700: *Aug 29 13:55:09 13:55:09.229: Manual centralized logging initialized for b012
+Aug 29 13:55:09 172.17.0.2 3659: *Aug 29 13:55:09 13:55:09.232: Manual centralized logging initialized for r21
+Aug 29 13:55:09 172.17.0.3 5940: *Aug 29 13:55:09 13:55:09.238: %SYS-5-CONFIG_I: Centralized syslog setup completed for b012
+Aug 29 13:55:09 172.17.0.2 1662: *Aug 29 13:55:09 13:55:09.242: %SYS-5-CONFIG_I: Centralized syslog setup completed for r21
+Aug 29 13:55:09 172.17.0.3 1771: *Aug 29 13:55:09 13:55:09.249: Interface eth0 configured: 100.0.3.1/24
+Aug 29 13:55:09 172.17.0.2 316: *Aug 29 13:55:09 13:55:09.251: Interface eth0 configured: 100.20.1.2/24
+Aug 29 13:55:09 172.17.0.3 1401: *Aug 29 13:55:09 13:55:09.255: Interface eth1 configured: 100.10.1.10/24
+Aug 29 13:55:09 172.17.0.2 2980: *Aug 29 13:55:09 13:55:09.258: Interface eth1 configured: 100.20.2.2/24
+Aug 29 13:55:09 172.17.0.3 7947: *Aug 29 13:55:09 13:55:09.262: Interface eth2 configured: 100.0.1.1/24
+Aug 29 13:55:09 172.17.0.2 5327: *Aug 29 13:55:09 13:55:09.264: Interface eth2 configured: 100.20.3.2/24
+Aug 29 13:55:09 172.17.0.3 1801: *Aug 29 13:55:09 13:55:09.269: Interface eth3 configured: 100.20.1.20/24
+Aug 29 13:55:14 172.17.0.2 3314: *Aug 29 13:55:14 13:55:14.985: FRR service started on r21
+Aug 29 13:55:14 172.17.0.3 8551: *Aug 29 13:55:14 13:55:14.985: FRR service started on b012
+Aug 29 13:55:48 172.17.0.2 5823: *Aug 29 13:55:48 13:55:48.079: Manual centralized logging initialized for r21
+Aug 29 13:55:48 172.17.0.2 2525: *Aug 29 13:55:48 13:55:48.089: %SYS-5-CONFIG_I: Centralized syslog setup completed for r21
+Aug 29 13:55:48 172.17.0.3 5623: *Aug 29 13:55:48 13:55:48.096: Manual centralized logging initialized for b012
+Aug 29 13:55:48 172.17.0.2 8521: *Aug 29 13:55:48 13:55:48.099: Interface eth0 configured: 100.20.1.2/24
+Aug 29 13:55:48 172.17.0.2 7170: *Aug 29 13:55:48 13:55:48.106: Interface eth1 configured: 100.20.2.2/24
+Aug 29 13:55:48 172.17.0.3 8656: *Aug 29 13:55:48 13:55:48.106: %SYS-5-CONFIG_I: Centralized syslog setup completed for b012
+Aug 29 13:55:48 172.17.0.2 1234: *Aug 29 13:55:48 13:55:48.113: Interface eth2 configured: 100.20.3.2/24
+Aug 29 13:55:48 172.17.0.3 1312: *Aug 29 13:55:48 13:55:48.117: Interface eth0 configured: 100.0.3.1/24
+Aug 29 13:55:48 172.17.0.3 8073: *Aug 29 13:55:48 13:55:48.123: Interface eth1 configured: 100.10.1.10/24
+Aug 29 13:55:48 172.17.0.3 4355: *Aug 29 13:55:48 13:55:48.130: Interface eth2 configured: 100.0.1.1/24
+Aug 29 13:55:48 172.17.0.3 7917: *Aug 29 13:55:48 13:55:48.136: Interface eth3 configured: 100.20.1.20/24
+Aug 29 13:55:53 172.17.0.2 8433: *Aug 29 13:55:53 13:55:53.830: FRR service started on r21
+Aug 29 13:55:53 172.17.0.3 5229: *Aug 29 13:55:53 13:55:53.832: FRR service started on b012
+Aug 29 13:56:43 172.17.0.2 738: *Aug 29 13:56:43 13:56:43.086: Manual centralized logging initialized for r12
+Aug 29 13:56:43 172.17.0.2 3343: *Aug 29 13:56:43 13:56:43.097: %SYS-5-CONFIG_I: Centralized syslog setup completed for r12
+Aug 29 13:56:43 172.17.0.2 2224: *Aug 29 13:56:43 13:56:43.108: Interface eth0 configured: 100.10.2.12/24
+Aug 29 13:56:43 172.17.0.4 5404: *Aug 29 13:56:43 13:56:43.788: Manual centralized logging initialized for r31
+Aug 29 13:56:43 172.17.0.6 1860: *Aug 29 13:56:43 13:56:43.794: Manual centralized logging initialized for b03
+Aug 29 13:56:43 172.17.0.3 8303: *Aug 29 13:56:43 13:56:43.795: Manual centralized logging initialized for r11
+Aug 29 13:56:43 172.17.0.7 630: *Aug 29 13:56:43 13:56:43.802: Manual centralized logging initialized for b02
+Aug 29 13:56:43 172.17.0.5 8473: *Aug 29 13:56:43 13:56:43.804: Manual centralized logging initialized for r21
+Aug 29 13:56:43 172.17.0.8 4955: *Aug 29 13:56:43 13:56:43.805: Manual centralized logging initialized for b012
+Aug 29 13:56:43 172.17.0.4 3499: *Aug 29 13:56:43 13:56:43.810: %SYS-5-CONFIG_I: Centralized syslog setup completed for r31
+Aug 29 13:56:43 172.17.0.3 4721: *Aug 29 13:56:43 13:56:43.824: %SYS-5-CONFIG_I: Centralized syslog setup completed for r11
+Aug 29 13:56:43 172.17.0.5 3819: *Aug 29 13:56:43 13:56:43.828: %SYS-5-CONFIG_I: Centralized syslog setup completed for r21
+Aug 29 13:56:43 172.17.0.6 1418: *Aug 29 13:56:43 13:56:43.824: %SYS-5-CONFIG_I: Centralized syslog setup completed for b03
+Aug 29 13:56:43 172.17.0.8 5570: *Aug 29 13:56:43 13:56:43.830: %SYS-5-CONFIG_I: Centralized syslog setup completed for b012
+Aug 29 13:56:43 172.17.0.4 3713: *Aug 29 13:56:43 13:56:43.832: Interface eth0 configured: 100.30.1.3/24
+Aug 29 13:56:43 172.17.0.7 2392: *Aug 29 13:56:43 13:56:43.832: %SYS-5-CONFIG_I: Centralized syslog setup completed for b02
+Aug 29 13:56:43 172.17.0.3 447: *Aug 29 13:56:43 13:56:43.856: Interface eth0 configured: 100.10.1.11/24
+Aug 29 13:56:43 172.17.0.5 8060: *Aug 29 13:56:43 13:56:43.858: Interface eth0 configured: 100.20.1.2/24
+Aug 29 13:56:43 172.17.0.6 610: *Aug 29 13:56:43 13:56:43.868: Interface eth0 configured: 100.0.3.2/24
+Aug 29 13:56:43 172.17.0.8 4122: *Aug 29 13:56:43 13:56:43.872: Interface eth0 configured: 100.0.3.1/24
+Aug 29 13:56:43 172.17.0.7 4173: *Aug 29 13:56:43 13:56:43.875: Interface eth0 configured: 100.0.1.2/24
+Aug 29 13:56:43 172.17.0.3 5230: *Aug 29 13:56:43 13:56:43.887: Interface eth1 configured: 100.10.2.1/24
+Aug 29 13:56:43 172.17.0.5 6620: *Aug 29 13:56:43 13:56:43.886: Interface eth1 configured: 100.20.2.2/24
+Aug 29 13:56:43 172.17.0.6 8693: *Aug 29 13:56:43 13:56:43.890: Interface eth1 configured: 100.0.2.2/24
+Aug 29 13:56:43 172.17.0.8 3933: *Aug 29 13:56:43 13:56:43.893: Interface eth1 configured: 100.10.1.10/24
+Aug 29 13:56:43 172.17.0.7 3294: *Aug 29 13:56:43 13:56:43.893: Interface eth1 configured: 100.20.2.20/24
+Aug 29 13:56:43 172.17.0.6 3062: *Aug 29 13:56:43 13:56:43.905: Interface eth2 configured: 100.30.1.30/24
+Aug 29 13:56:43 172.17.0.5 1336: *Aug 29 13:56:43 13:56:43.906: Interface eth2 configured: 100.20.3.2/24
+Aug 29 13:56:43 172.17.0.7 6587: *Aug 29 13:56:43 13:56:43.911: Interface eth2 configured: 100.0.2.1/24
+Aug 29 13:56:43 172.17.0.8 3011: *Aug 29 13:56:43 13:56:43.911: Interface eth2 configured: 100.0.1.1/24
+Aug 29 13:56:43 172.17.0.8 7720: *Aug 29 13:56:43 13:56:43.931: Interface eth3 configured: 100.20.1.20/24
+Aug 29 13:56:48 172.17.0.2 4843: *Aug 29 13:56:48 13:56:48.840: FRR service started on r12
+Aug 29 13:56:49 172.17.0.4 6506: *Aug 29 13:56:49 13:56:49.529: FRR service started on r31
+Aug 29 13:56:49 172.17.0.3 2653: *Aug 29 13:56:49 13:56:49.563: FRR service started on r11
+Aug 29 13:56:49 172.17.0.5 5452: *Aug 29 13:56:49 13:56:49.610: FRR service started on r21
+Aug 29 13:56:49 172.17.0.7 3498: *Aug 29 13:56:49 13:56:49.637: FRR service started on b02
+Aug 29 13:56:49 172.17.0.6 137: *Aug 29 13:56:49 13:56:49.642: FRR service started on b03
+Aug 29 13:56:49 172.17.0.8 1579: *Aug 29 13:56:49 13:56:49.652: FRR service started on b012
+Aug 29 13:58:56 172.17.0.3 672: *Aug 29 13:58:56 13:58:56.372: %BGP-4-ADJCHANGE: neighbor 10.166.156.198 Down
+Aug 29 13:59:02 172.17.0.5 5306: *Aug 29 13:59:02 13:59:02.774: %BGP-4-ADJCHANGE: Maximum number of prefixes reached from 10.166.156.198: 1726/8328
+Aug 29 13:59:09 172.17.0.3 5910: *Aug 29 13:59:09 13:59:09.150: %OSPF-6-ADJCHANGE: Process 44, SPF calculation completed for area 1, took 356 ms
+Aug 29 13:59:15 172.17.0.4 7739: *Aug 29 13:59:15 13:59:15.526: %OSPF-6-ADJCHANGE: Process 1, Nbr 10.0.0.5 on FastEthernet0/1 from LOADING to FULL
+Aug 29 13:59:21 172.17.0.2 2241: *Aug 29 13:59:21 13:59:21.973: %ISIS-4-ADJCHANGE: Level-1 LSP 5793.7867.7981-00 with a sequence number skip detected from 1587.3240.6143 on GigabitEthernet0/0
+Aug 29 13:59:31 172.17.0.3 4544: *Aug 29 13:59:31 13:59:31.824: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+Aug 29 14:00:53 172.17.0.3 2133: *Aug 29 14:00:53 14:00:53.693: %BGP-5-ADJCHANGE: BGP neighbor 10.0.0.2 Down - session terminated
+Aug 29 14:02:23 172.17.0.3 1791: *Aug 29 14:02:23 14:02:23.782: %BGP-5-ADJCHANGE: BGP neighbor 10.0.0.2 Up - session established
+Aug 29 14:26:25 172.17.0.2 6947: *Aug 29 14:26:25 14:26:25.523: Manual centralized logging initialized for r31
+Aug 29 14:26:25 172.17.0.2 8898: *Aug 29 14:26:25 14:26:25.542: %SYS-5-CONFIG_I: Centralized syslog setup completed for r31
+Aug 29 14:26:25 172.17.0.3 827: *Aug 29 14:26:25 14:26:25.551: Manual centralized logging initialized for r12
+Aug 29 14:26:25 172.17.0.2 4237: *Aug 29 14:26:25 14:26:25.554: Interface eth0 configured: 100.30.1.3/24
+Aug 29 14:26:25 172.17.0.3 8145: *Aug 29 14:26:25 14:26:25.563: %SYS-5-CONFIG_I: Centralized syslog setup completed for r12
+Aug 29 14:26:25 172.17.0.3 4690: *Aug 29 14:26:25 14:26:25.578: Interface eth0 configured: 100.10.2.12/24
+Aug 29 14:26:26 172.17.0.4 3767: *Aug 29 14:26:26 14:26:26.441: Manual centralized logging initialized for r11
+Aug 29 14:26:26 172.17.0.6 6236: *Aug 29 14:26:26 14:26:26.449: Manual centralized logging initialized for b03
+Aug 29 14:26:26 172.17.0.4 5137: *Aug 29 14:26:26 14:26:26.466: %SYS-5-CONFIG_I: Centralized syslog setup completed for r11
+Aug 29 14:26:26 172.17.0.6 3602: *Aug 29 14:26:26 14:26:26.472: %SYS-5-CONFIG_I: Centralized syslog setup completed for b03
+Aug 29 14:26:26 172.17.0.7 8614: *Aug 29 14:26:26 14:26:26.474: Manual centralized logging initialized for b012
+Aug 29 14:26:26 172.17.0.5 2070: *Aug 29 14:26:26 14:26:26.480: Manual centralized logging initialized for r21
+Aug 29 14:26:26 172.17.0.4 4728: *Aug 29 14:26:26 14:26:26.491: Interface eth0 configured: 100.10.1.11/24
+Aug 29 14:26:26 172.17.0.8 2250: *Aug 29 14:26:26 14:26:26.493: Manual centralized logging initialized for b02
+Aug 29 14:26:26 172.17.0.6 4190: *Aug 29 14:26:26 14:26:26.496: Interface eth0 configured: 100.0.3.2/24
+Aug 29 14:26:26 172.17.0.5 5601: *Aug 29 14:26:26 14:26:26.498: %SYS-5-CONFIG_I: Centralized syslog setup completed for r21
+Aug 29 14:26:26 172.17.0.7 355: *Aug 29 14:26:26 14:26:26.498: %SYS-5-CONFIG_I: Centralized syslog setup completed for b012
+Aug 29 14:26:26 172.17.0.4 4363: *Aug 29 14:26:26 14:26:26.504: Interface eth1 configured: 100.10.2.1/24
+Aug 29 14:26:26 172.17.0.6 4442: *Aug 29 14:26:26 14:26:26.512: Interface eth1 configured: 100.0.2.2/24
+Aug 29 14:26:26 172.17.0.8 6931: *Aug 29 14:26:26 14:26:26.517: %SYS-5-CONFIG_I: Centralized syslog setup completed for b02
+Aug 29 14:26:26 172.17.0.5 1298: *Aug 29 14:26:26 14:26:26.521: Interface eth0 configured: 100.20.1.2/24
+Aug 29 14:26:26 172.17.0.7 1892: *Aug 29 14:26:26 14:26:26.524: Interface eth0 configured: 100.0.3.1/24
+Aug 29 14:26:26 172.17.0.6 2390: *Aug 29 14:26:26 14:26:26.527: Interface eth2 configured: 100.30.1.30/24
+Aug 29 14:26:26 172.17.0.5 3403: *Aug 29 14:26:26 14:26:26.534: Interface eth1 configured: 100.20.2.2/24
+Aug 29 14:26:26 172.17.0.7 6007: *Aug 29 14:26:26 14:26:26.539: Interface eth1 configured: 100.10.1.10/24
+Aug 29 14:26:26 172.17.0.8 711: *Aug 29 14:26:26 14:26:26.546: Interface eth0 configured: 100.0.1.2/24
+Aug 29 14:26:26 172.17.0.5 8744: *Aug 29 14:26:26 14:26:26.555: Interface eth2 configured: 100.20.3.2/24
+Aug 29 14:26:26 172.17.0.7 2280: *Aug 29 14:26:26 14:26:26.556: Interface eth2 configured: 100.0.1.1/24
+Aug 29 14:26:26 172.17.0.8 2635: *Aug 29 14:26:26 14:26:26.570: Interface eth1 configured: 100.20.2.20/24
+Aug 29 14:26:26 172.17.0.7 8783: *Aug 29 14:26:26 14:26:26.583: Interface eth3 configured: 100.20.1.20/24
+Aug 29 14:26:26 172.17.0.8 5388: *Aug 29 14:26:26 14:26:26.595: Interface eth2 configured: 100.0.2.1/24
+Aug 29 14:26:31 172.17.0.2 7951: *Aug 29 14:26:31 14:26:31.290: FRR service started on r31
+Aug 29 14:26:31 172.17.0.3 2192: *Aug 29 14:26:31 14:26:31.303: FRR service started on r12
+Aug 29 14:26:32 172.17.0.4 7111: *Aug 29 14:26:32 14:26:32.254: FRR service started on r11
+Aug 29 14:26:32 172.17.0.6 7241: *Aug 29 14:26:32 14:26:32.267: FRR service started on b03
+Aug 29 14:26:32 172.17.0.5 4592: *Aug 29 14:26:32 14:26:32.308: FRR service started on r21
+Aug 29 14:26:32 172.17.0.7 7594: *Aug 29 14:26:32 14:26:32.342: FRR service started on b012
+Aug 29 14:26:32 172.17.0.8 7352: *Aug 29 14:26:32 14:26:32.364: FRR service started on b02
+Aug 29 14:29:52 172.17.0.4 3848: *Aug 29 14:29:52 14:29:52.457: %CONFIG-3-MISMATCH: OSPF area mismatch detected - configuration conflict
+Aug 29 14:29:52 172.17.0.4 4387: *Aug 29 14:29:52 14:29:52.526: %CONFIG-4-CHANGE: Configuration change applied - OSPF parameters modified
+Aug 29 14:29:52 172.17.0.4 8533: *Aug 29 14:29:52 14:29:52.603: %OSPF-3-NEIGHBOR_FAIL: OSPF neighbor adjacency failed due to area mismatch
+Aug 29 14:35:20 172.17.0.4 2885: *Aug 29 14:35:20 14:35:20.323: %SYS-4-CPU_HITHRESHOLD: Task is running for 15000ms, more than 5000ms allowed
+Aug 29 14:35:53 172.17.0.4 914: *Aug 29 14:35:53 14:35:53.714: %SYS-5-RESTART: CPU utilization returned to normal levels
+Aug 29 14:36:43 172.17.0.4 1078: *Aug 29 14:36:43 14:36:43.173: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+Aug 29 14:36:43 172.17.0.4 7647: *Aug 29 14:36:43 14:36:43.247: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to down
+Aug 29 14:36:54 172.17.0.4 6332: *Aug 29 14:36:54 14:36:54.302: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+Aug 29 14:36:54 172.17.0.4 3600: *Aug 29 14:36:54 14:36:54.367: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+Aug 29 14:37:10 172.17.0.4 4429: *Aug 29 14:37:10 14:37:10.483: %OSPF-5-ADJCHG: Process 1, Neighbor 10.0.0.2 on GigabitEthernet0/0 from FULL to DOWN, Neighbor Down: Dead timer expired
+Aug 29 14:37:31 172.17.0.4 8386: *Aug 29 14:37:31 14:37:31.600: %OSPF-5-ADJCHG: Process 1, Neighbor 10.0.0.2 on GigabitEthernet0/0 from DOWN to FULL, Loading Done
+Aug 29 14:37:48 172.17.0.4 5417: *Aug 29 14:37:48 14:37:48.014: %SYS-4-CPU_HITHRESHOLD: Task is running for 15000ms, more than 5000ms allowed
+Aug 29 14:38:04 172.17.0.4 5773: *Aug 29 14:38:04 14:38:04.409: %SYS-5-RESTART: CPU utilization returned to normal levels
+Aug 29 14:38:25 172.17.0.4 411: *Aug 29 14:38:25 14:38:25.688: %CONFIG-3-MISMATCH: OSPF area mismatch detected - configuration conflict
+Aug 29 14:38:25 172.17.0.4 3394: *Aug 29 14:38:25 14:38:25.761: %CONFIG-4-CHANGE: Configuration change applied - OSPF parameters modified
+Aug 29 14:38:25 172.17.0.4 1925: *Aug 29 14:38:25 14:38:25.826: %OSPF-3-NEIGHBOR_FAIL: OSPF neighbor adjacency failed due to area mismatch
+Aug 29 14:39:13 172.17.0.4 6754: *Aug 29 14:39:13 14:39:13.251: %MEMORY-2-LOW: System memory critically low - only 5% available
+Aug 29 14:39:13 172.17.0.4 2112: *Aug 29 14:39:13 14:39:13.334: %MEMORY-3-THRESH: Memory threshold exceeded - applications may fail
+Aug 29 14:39:13 172.17.0.4 3936: *Aug 29 14:39:13 14:39:13.402: %SYS-4-SWAP: System using swap memory - performance degraded
+Aug 29 14:39:30 172.17.0.4 7581: *Aug 29 14:39:30 14:39:30.036: %MEMORY-6-RECOVERED: System memory recovered - processes terminated and caches cleared
+Aug 29 14:39:30 172.17.0.4 1802: *Aug 29 14:39:30 14:39:30.102: %SYS-6-NORMAL: System memory utilization returned to normal levels
+Aug 29 14:39:30 172.17.0.4 1381: *Aug 29 14:39:30 14:39:30.172: %MEMORY-6-AVAILABLE: Memory buffers and caches restored - system performance normal
+Aug 29 14:40:02 172.17.0.4 303: *Aug 29 14:40:02 14:40:02.182: %LINK-4-FLAP: Interface eth1 flapping detected - up/down transitions exceeded threshold
+Aug 29 14:40:02 172.17.0.4 673: *Aug 29 14:40:02 14:40:02.244: %LINEPROTO-3-FLAP: Line protocol on Interface eth1 flapping - check physical connection
+Aug 29 14:40:02 172.17.0.4 1709: *Aug 29 14:40:02 14:40:02.305: %OSPF-4-FLAPPING: OSPF neighbor flapping detected due to interface instability
+Aug 29 14:40:46 172.17.0.4 4540: *Aug 29 14:40:46 14:40:46.385: %SEC-4-LOGIN_FAILED: Authentication failure for user admin from 192.168.1.100
+Aug 29 14:40:46 172.17.0.4 1089: *Aug 29 14:40:46 14:40:46.484: %SEC-4-LOGIN_FAILED: Failed password for testuser from 10.0.0.50
+Aug 29 14:40:46 172.17.0.4 4933: *Aug 29 14:40:46 14:40:46.552: %SEC-3-INVALID_USER: Invalid user attempt from 172.16.1.25
+Aug 29 14:41:07 172.17.0.4 1882: *Aug 29 14:41:07 14:41:07.302: %BGP-5-ADJCHANGE: BGP neighbor 10.0.0.2 Down - session terminated
+Aug 29 14:41:36 172.17.0.4 5559: *Aug 29 14:41:36 14:41:36.370: %DHCP-3-FAIL: DHCP service stopped - clients cannot obtain IP addresses
+Aug 29 14:41:48 172.17.0.4 3960: *Aug 29 14:41:48 14:41:48.471: %DHCP-6-STARTED: DHCP service restarted - clients can now obtain IP addresses
+Aug 29 14:42:02 172.17.0.4 5378: *Aug 29 14:42:02 14:42:02.652: %DNS-3-FAIL: DNS resolution failed - unable to resolve domain names
+Aug 29 14:42:21 172.17.0.4 4101: *Aug 29 14:42:21 14:42:21.179: %DNS-6-RESTORED: DNS resolution restored - domain name resolution is working
+Aug 29 14:42:45 172.17.0.4 1960: *Aug 29 14:42:45 14:42:45.736: %FIREWALL-4-DENY: Multiple deny events detected - traffic being blocked by firewall rules
+Aug 29 14:43:09 172.17.0.4 3418: *Aug 29 14:43:09 14:43:09.518: %FIREWALL-6-RESTORED: Firewall rules restored - network connectivity re-established
+Aug 29 14:43:23 172.17.0.4 4810: *Aug 29 14:43:23 14:43:23.836: %ENV-1-PSFAIL: Power supply 2 failure detected - redundancy lost
+Aug 29 14:43:23 172.17.0.4 6613: *Aug 29 14:43:23 14:43:23.903: %ENV-2-PSTEMP: Power supply 1 temperature warning - 65C detected
+Aug 29 14:43:23 172.17.0.4 7722: *Aug 29 14:43:23 14:43:23.972: %ENV-3-VOLTAGE: Power supply voltage below threshold - 11.2V detected
+Aug 29 14:44:00 172.17.0.4 300: *Aug 29 14:44:00 14:44:00.332: %ENV-6-PSRESTORED: Power supply 2 replaced and operational - redundancy restored
+Aug 29 14:44:00 172.17.0.4 3875: *Aug 29 14:44:00 14:44:00.406: %ENV-6-PSTEMP: Power supply temperatures normal - thermal conditions stable
+Aug 29 14:44:00 172.17.0.4 3243: *Aug 29 14:44:00 14:44:00.475: %ENV-6-VOLTAGE: Power supply voltages normal - electrical stability restored
+Aug 29 14:44:00 172.17.0.4 6699: *Aug 29 14:44:00 14:44:00.550: %UPS-6-ONLINE: UPS back online - mains power restored
+Aug 29 14:44:16 172.17.0.4 7354: *Aug 29 14:44:16 14:44:16.106: %NAT-3-POOL_EXHAUST: NAT pool exhausted - unable to allocate new translations
+Aug 29 14:44:36 172.17.0.4 6982: *Aug 29 14:44:36 14:44:36.961: %NAT-6-RESTORED: NAT pool expanded - translation capacity restored

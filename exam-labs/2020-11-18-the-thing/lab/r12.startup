@@ -1,5 +1,5 @@
-# Setup syslog first
-bash /shared/setup_syslog.sh
+# Setup centralized syslog first
+bash /shared/setup_centralized_syslog.sh
 
 # Configure interfaces
 ifconfig eth0 100.10.2.12/24 up
