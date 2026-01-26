@@ -13,6 +13,10 @@ kathara exec r11 -- cat /var/log/syslog | tail -10
 
  kathara exec b012 -- cat /var/log/syslog | tail -10
 
-kathara exec kathara_raji-oddrtyxe76vrhsrhtcyeiw_b02_kzdfW5JUYwTEpd7fKJaogw -- cat /var/log/syslog | tail -10
+kathara exec kathara_raji-oddrtyxe76vrhsrhtcyeiw_r11_GqwNFX8OHm30wM7r6Twg -- cat /var/log/syslog | tail -10
+
+exec kathara_raji-oddrtyxe76vrhsrhtcyeiw_r11_GqwNFX8OHm30wM7r6Twg -- cat /var/log/syslog | tail -10
+
+kathara_raji-oddrtyxe76vrhsrhtcyeiw_r11_GqwNFX8OHm30wM7r6Twg
 
 how to genrate a continuous traffic between routers so that we can see continus syslogs.

@@ -44,28 +44,24 @@ Successfully implemented a comprehensive real syslog system for all containers i
 - Automatic setup on container startup
 - Fallback to manual logging when rsyslog unavailable
 - Prevention of duplicate setup runs
-- Shared setup script in `/shared/setup_syslog.sh`
+- Shared setup script in `/shared/setup_centralized_syslog.sh`
 
-## Files Modified/Created
+## Files
 
 ### Setup Script
-- `setup_syslog.sh` - Main syslog configuration script
-- `shared/setup_syslog.sh` - Shared version for all containers
+- `shared/setup_centralized_syslog.sh` - Centralized syslog configuration for all containers
 
-### Startup Scripts (Updated)
+### Startup Scripts
 - `r11.startup` - Router 11 startup with syslog
-- `r12.startup` - Router 12 startup with syslog  
+- `r12.startup` - Router 12 startup with syslog
 - `b012.startup` - Bridge 012 startup with syslog
 - `b02.startup` - Bridge 02 startup with syslog
 - `b03.startup` - Bridge 03 startup with syslog
 - `r21.startup` - Router 21 startup with syslog
 - `r31.startup` - Router 31 startup with syslog
 
-### Utility Scripts
-- `update_logging.sh` - Updates basic logging functions on running containers
-- `update_Device_logging.sh` - Updates to Device-style logging format
-- `demo_syslog.sh` - Demonstrates basic syslog functionality
-- `demo_Device_syslog.sh` - Demonstrates enhanced Device-style format
+### Management
+- `manage_logs.sh` - Main tool for starting lab, syncing, monitoring, and managing logs
 
 ## Usage Examples
 
