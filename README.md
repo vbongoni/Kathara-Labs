@@ -62,11 +62,33 @@ If you need additional network scenarios, you can visit the old [Netkit Lab Page
 
 **Beware those network scenarios are not tested on Kathará, so they may not work properly!**
 
-Example commands:
-show ip ospf route
-show ip ospf interface
-show ip ospf neighbor
-show ip ospf database
-show ip ospf database summary
-show ip ospf database router
-show ip ospf database network
+## Topology Discovery Commands
+
+### OSPF Topology
+- `show ip ospf neighbor` - Shows OSPF neighbors (directly connected routers)
+- `show ip ospf interface` - Shows OSPF-enabled interfaces and their status
+- `show ip ospf database` - Shows the OSPF Link State Database (LSDB) - the complete topology
+- `show ip ospf database summary` - Shows summary LSA information
+- `show ip ospf database router` - Shows router LSAs (topology from each router's perspective)
+- `show ip ospf database network` - Shows network LSAs
+- `show ip ospf route` - Shows computed OSPF routes
+
+### IS-IS Topology
+- `show isis neighbor` - Shows IS-IS neighbors
+
+### BGP (Interdomain Routing)
+- `show bgp summary` - Shows BGP peers and connections
+
+### General Routing
+- `show ip route` - Shows the complete routing table
+
+## Recommended Workflow
+
+To get a complete picture of your network topology:
+
+1. **Start with neighbors**: `show ip ospf neighbor` to see direct connections
+2. **View database**: `show ip ospf database` to get the full topology that each router has learned
+3. **Check interfaces**: `show ip ospf interface` to confirm which links are active
+4. **Verify routes**: `show ip ospf route` to see how the topology is being used for routing
+
+> **Note**: The `show ip ospf database` command is typically the most useful for understanding the complete network topology, as it shows all routers, networks, and connections that have been discovered and propagated through OSPF.

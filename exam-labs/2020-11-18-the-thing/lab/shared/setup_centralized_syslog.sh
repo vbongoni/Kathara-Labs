@@ -206,10 +206,10 @@ esac
 
 # Cisco-style timestamp format (for message content only)
 timestamp1=$(date '+%b %d %H:%M:%S')
-timestamp2=$(date '+%H:%M:%S.%3N')
+timestamp2=$(date '+%b %d %H:%M:%S.%3N')
 
 # Format message in Cisco style (only in the message part)
-cisco_msg="*${timestamp1} ${timestamp2}: ${message}"
+cisco_msg="*${timestamp2}: ${message}"
 
 # Full syslog entry format: timestamp ip_address pid: cisco_message  
 formatted_msg="$timestamp1 $ip_addr $pid: $cisco_msg"

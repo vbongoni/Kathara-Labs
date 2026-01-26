@@ -1,7 +1,7 @@
 # Kathara Netw### 2. Specialized Network Logging
 - `/var/log/bgp.log` - BGP protocol events
 - `/var/log/osp### Custom Logger (net_logger)
-- Cisco-style syslog formatting with IP addresses and process IDs
+- Device-style syslog formatting with IP addresses and process IDs
 - Multiple file output (syslog, messages, specialized logs)
 - Proper timestamp formatting with milliseconds (`MMM DD HH:MM:SS` and `HH:MM:SS.mmm`)
 - Device IP address identification (instead of hostname)
@@ -36,7 +36,7 @@ Successfully implemented a comprehensive real syslog system for all containers i
 ### Custom Logging Functions
 - `log_network_event <type> <message>` - Main logging function
 - Event types: interface, routing, bgp, ospf, isis, system
-- Cisco-style syslog timestamp formatting with milliseconds
+- Device-style syslog timestamp formatting with milliseconds
 - IP address-based device identification
 - Realistic network protocol message formatting
 
@@ -63,9 +63,9 @@ Successfully implemented a comprehensive real syslog system for all containers i
 
 ### Utility Scripts
 - `update_logging.sh` - Updates basic logging functions on running containers
-- `update_cisco_logging.sh` - Updates to Cisco-style logging format
+- `update_Device_logging.sh` - Updates to Device-style logging format
 - `demo_syslog.sh` - Demonstrates basic syslog functionality
-- `demo_cisco_syslog.sh` - Demonstrates enhanced Cisco-style format
+- `demo_Device_syslog.sh` - Demonstrates enhanced Device-style format
 
 ## Usage Examples
 
@@ -107,8 +107,8 @@ tail -f /var/log/syslog
 
 ## Technical Implementation
 
-### Cisco-Style Syslog Format
-The implementation follows the standard Cisco syslog format:
+### Device-Style Syslog Format
+The implementation follows the standard Device syslog format:
 ```
 MMM DD HH:MM:SS IP_ADDRESS PID: *MMM DD HH:MM:SS HH:MM:SS.mmm: %FACILITY-SEVERITY-MNEMONIC: MESSAGE
 ```
@@ -117,7 +117,7 @@ MMM DD HH:MM:SS IP_ADDRESS PID: *MMM DD HH:MM:SS HH:MM:SS.mmm: %FACILITY-SEVERIT
 - `MMM DD HH:MM:SS` - Standard syslog timestamp
 - `IP_ADDRESS` - Device IP address (auto-detected from routing table)
 - `PID` - Simulated process ID (randomized per event type)
-- `*MMM DD HH:MM:SS HH:MM:SS.mmm` - Cisco internal timestamp with milliseconds
+- `*MMM DD HH:MM:SS HH:MM:SS.mmm` - Device internal timestamp with milliseconds
 - `%FACILITY-SEVERITY-MNEMONIC` - Protocol-specific event classification
 - `MESSAGE` - Detailed event description
 
@@ -174,7 +174,7 @@ Aug 17 08:25:42 100.10.2.12 4633: *Aug 17 08:25:42 08:25:42.167: %ISIS-3-AUTHFAI
 
 ## Benefits
 
-1. **Cisco Compliance**: Uses industry-standard Cisco syslog format
+1. **Device Compliance**: Uses industry-standard Device syslog format
 2. **Real Network Simulation**: Authentic network device log formatting
 3. **Protocol-Specific Logging**: Separate logs for BGP, OSPF, ISIS, Interface events
 4. **Troubleshooting**: Easy to track network events chronologically with proper severity levels
@@ -191,12 +191,12 @@ Aug 17 08:25:42 100.10.2.12 4633: *Aug 17 08:25:42 08:25:42.167: %ISIS-3-AUTHFAI
 - Real-time alerting on critical events
 - Log analysis and visualization tools
 
-## Status: ✅ COMPLETE - Enhanced Cisco-Style Format
+## Status: ✅ COMPLETE - Enhanced Device-Style Format
 
-The real syslog system is fully operational across all containers in the Kathara lab, providing comprehensive logging of network and system events in authentic Cisco-style format. The implementation now matches industry-standard network device logging with proper timestamps, IP addresses, process IDs, and protocol-specific event classifications.
+The real syslog system is fully operational across all containers in the Kathara lab, providing comprehensive logging of network and system events in authentic Device-style format. The implementation now matches industry-standard network device logging with proper timestamps, IP addresses, process IDs, and protocol-specific event classifications.
 
 **Key Features Achieved:**
-- ✅ Cisco-style syslog format with IP addresses and process IDs
+- ✅ Device-style syslog format with IP addresses and process IDs
 - ✅ Millisecond precision timestamps
 - ✅ Protocol-specific severity levels and mnemonics
 - ✅ Authentic network device event messages
