@@ -196,12 +196,12 @@ fi
 
 # Generate process ID (simulate different process IDs for different tags)
 case "$tag" in
-    "BGP"|"bgp") pid=$((RANDOM % 9000 + 100)) ;;
-    "OSPF"|"ospf") pid=$((RANDOM % 9000 + 100)) ;;
-    "ISIS"|"isis") pid=$((RANDOM % 9000 + 100)) ;;
-    "INTERFACE"|"interface") pid=$((RANDOM % 9000 + 100)) ;;
-    "ROUTING"|"routing") pid=$((RANDOM % 9000 + 100)) ;;
-    *) pid=$((RANDOM % 9000 + 100)) ;;
+    "BGP"|"bgp") pid=$((RANDOM % 9000 + 1000)) ;;
+    "OSPF"|"ospf") pid=$((RANDOM % 9000 + 1000)) ;;
+    "ISIS"|"isis") pid=$((RANDOM % 9000 + 1000)) ;;
+    "INTERFACE"|"interface") pid=$((RANDOM % 9000 + 1000)) ;;
+    "ROUTING"|"routing") pid=$((RANDOM % 9000 + 1000)) ;;
+    *) pid=$((RANDOM % 9000 + 1000)) ;;
 esac
 
 # Cisco-style timestamp format (for message content only)
@@ -304,12 +304,6 @@ case "$event_type" in
         /usr/local/bin/net_logger -t "NetworkSim" "$cisco_msg"
         ;;
 esac
-    *)
-        # Default format
-        cisco_msg="%SYS-6-LOGGINGHOST_STARTSTOP: ${event_type}: ${message}"
-        /usr/local/bin/net_logger -t "NetworkSim" "$cisco_msg"
-        ;;
-esac
 EOF
 chmod +x /usr/local/bin/log_network_event
 
@@ -363,7 +357,7 @@ fi
 if command -v log_network_event >/dev/null 2>&1; then
     log_network_event "system" "Centralized syslog setup completed for $(hostname)"
 else
-    /usr/local/bin/net_logger -t "NetworkSim" "Centralized syslog setup completed for $(hostname)" 2>/dev/null || echo "Centralized syslog setup completed for $(hostname)" >> /shared/syslogs/syslogs-2025-08.log
+    /usr/local/bin/net_logger -t "NetworkSim" "Centralized syslog setup completed for $(hostname)" 2>/dev/null || echo "Centralized syslog setup completed for $(hostname)" >> /shared/syslogs/syslog-$(date '+%Y-%m-%d').log
 fi
 
 # Mark setup as complete
@@ -372,4 +366,4 @@ touch /tmp/syslog_setup_done
 echo "Centralized syslog setup completed for $(hostname)"
 
 # Ensure proper permissions for log file
-chmod 666 /shared/syslogs/syslogs-2025-08.log 2>/dev/null || true
+chmod 666 /shared/syslogs/syslog-$(date '+%Y-%m-%d').log 2>/dev/null || true
