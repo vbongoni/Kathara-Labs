@@ -18,3 +18,6 @@ systemctl start frr
 
 # Log FRR startup
 logger -t "NetworkSim" "FRR service started on b012"
+
+# Start traffic daemon for continuous monitoring
+/shared/traffic_daemon.sh start &
